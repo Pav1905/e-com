@@ -1,0 +1,259 @@
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    height: 80vh;
+    background: url('background.jpeg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.products, .cart, .signin {
+    padding: 50px;
+}
+
+.products h2, .cart h2, .signin h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+.product-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart-items {
+    max-width: 800px;
+    margin: auto;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.item-details h3 {
+    margin: 0;
+}
+
+.total {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.total h3 {
+    font-size: 1.5em;
+}
+
+.signin form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin form label {
+    margin-bottom: 10px;
+}
+
+.signin form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signin form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Us Page Styles */
+.contact-us {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.contact-us h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #0e0f0f;
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background: #141414;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000000;
+}
+.contact-link {
+    text-align: center; /* Center the link */
+    margin: 20px 0; /* Add some margin around the div */
+}
+
+.contact-link a {
+    text-decoration: none; /* Remove underline from the link */
+    color: #007bff; /* Change the text color to match your theme */
+    font-size: 18px; /* Adjust the font size */
+    font-weight: bold; /* Make the link bold */
+    padding: 10px 20px; /* Add some padding around the link */
+    border: 2px solid #007bff; /* Add a border with the same color */
+    border-radius: 5px; /* Round the corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact-link a:hover {
+    background-color: #007bff; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="p1.jpeg" alt="Product 1">
+                <h3>HandMade Dream Catcher</h3>
+                <p>Cost per piece:249</p>
+                <button onclick="addToCart('Product 1', 49.99, 'p1.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="p2.jpeg" alt="Product 2">
+                <h3>Key Chains</h3>
+                <p>Cost per piece:39</p>
+                <button onclick="addToCart('Product 2', 39.99, 'p2.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="p3.jpeg" alt="Product 3">
+                <h3>Plant Baskets</h3>
+                <p>Cost per piece:159</p>
+                <button onclick="addToCart('Product 3', 59.99, 'p3.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-item">
+                <img src="p4.jpeg" alt="Product 4">
+                <h3>Pen Stand</h3>
+                <p>Cost per piece:129</p>
+                <button onclick="addToCart('Product 4', 29.99, 'p4.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-item">
+                <img src="p5.jpeg" alt="Product 5">
+                <h3>Wall Designers</h3>
+                <p>Cost per piece:224</p>
+                <button onclick="addToCart('Product 5', 24.99, 'p5.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-item">
+                <img src="p6.jpeg" alt="Product 6">
+                <h3>Mirror Designs</h3>
+                <p>Cost per piece:174</p>
+                <button onclick="addToCart('Product 6', 74.99, 'p6.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-item">
+                <img src="p7.jpeg" alt="Product 7">
+                <h3>Handmade Cosmetic Pouch</h3>
+                <p>Cost per piece:189</p>
+                <button onclick="addToCart('Product 7', 89.99, 'p7.jpeg')">Add to Cart</button>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-item">
+                <img src="p8.jpeg" alt="Product 8">
+                <h3>Bracelets</h3>
+                <p>Cost per piece:59</p>
+                <button onclick="addToCart('Product 8', 99.99, 'p8.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="contact-link">
+            <a href="contact.html">To Contact Us for any Queries</a>
+        </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
